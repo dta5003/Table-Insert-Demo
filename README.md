@@ -11,18 +11,18 @@ Table Insert Demo
 
 ```html
 <table>
-	<thead>
-		<tr>
-			<th>Name</th>
-			<th>Status</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Doe, John</td>
-			<td>Approved</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Doe, John</td>
+            <td>Approved</td>
+        </tr>
+    </tbody>
 </table>
 ```
 

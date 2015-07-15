@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Table Insert Demo</title>
-		<meta charset="utf-8">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="submit-member.js"></script>
-		<!--TODO: add css to make it pretty-->
-	</head>
-	<body>
-		<div>
-			<form id="memberForm" autocomplete="off">
-				<fieldset>
-					<legend>New Member</legend>
-					<label>First Name</label>
-					<input id="firstName" name="firstName" type="text" required autofocus/>
-					
-					<label>Last Name</label>
-					<input id="lastName" name="lastName" type="text" required/>
-					
-					<label>Status</label>
-					<input id="status" name="status" type="text" required/>
-					
-					<input id="insertButton" type="submit" value="Insert"/>
-				</fieldset>
-			</form>
-		</div>
-		<br>
-		<div>
-			<table id="memberTable">
-				<caption>Members</caption>
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Status</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Doe, John</td>
-						<td>Approved</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</body>
+    <head>
+        <title>Table Insert Demo</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="submit-member.js"></script>
+        <!--TODO: add css to make it pretty-->
+    </head>
+    <body>
+        <div>
+            <form id="memberForm" autocomplete="off">
+                <fieldset>
+                    <legend>New Member</legend>
+                    <label>First Name</label>
+                    <input id="firstName" name="firstName" type="text" required autofocus/>
+                    
+                    <label>Last Name</label>
+                    <input id="lastName" name="lastName" type="text" required/>
+                    
+                    <label>Status</label>
+                    <input id="status" name="status" type="text" required/>
+                    
+                    <input id="insertButton" type="submit" value="Insert"/>
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <div>
+            <table id="memberTable">
+                <caption>Members</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Doe, John</td>
+                        <td>Approved</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
 </html>

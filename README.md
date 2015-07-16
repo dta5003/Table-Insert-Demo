@@ -1,12 +1,12 @@
 Table Insert Demo
 =======
 
-### The Exercise:
+### The Exercise
 
 > Given the following HTML provide a JavaScript function that takes first name, last name
 > and status as arguments, inserts a new table row into the markup below sorted by name
 > and saves the information to the database. You can modify the HTML as needed. You can
-> assume that sending data to the URL, “/member/save”, will save the name and status.
+> assume that sending data to the URL, â€œ/member/saveâ€, will save the name and status.
 > Please list any open source JavaScript libraries used in this solution.
 
 ```html
@@ -26,7 +26,7 @@ Table Insert Demo
 </table>
 ```
 
-### My Implementation:
+### My Implementation
 
 Initially I planned on not using any libraries, but later brought in jQuery to make the AJAX and table manipulation code more readable.  There are two main javascript functions, postToDatabase and insertIntoTable, the latter to be called on the success of the former.  For the demo however, postToDatabase will always fail due to /member/save not existing.  I've added a call to insertIntoTable upon failure to allow for manipulating the table.
 
